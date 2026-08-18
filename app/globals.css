@@ -1,11 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --green: #047857;
   --purple: #6d28d9;
   --graphite: #0f172a;
 }
 
-html { scroll-behavior: smooth; }
-body { background: #fafaf9; color: #0f172a; }
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fafaf9;
+  color: #0f172a;
+}
+
 .line-clamp-2 {
   display: -webkit-box;
   -webkit-line-clamp: 2;
