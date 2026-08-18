@@ -1,0 +1,6 @@
+export const products = [
+  { id: 'apex-control-98', handle: 'apex-control-98-racquet', name: 'Apex Control 98 Racquet', category: 'Racquets', price: 249, badge: 'Best Seller', rating: 4.9, image: '/images/racquet-placeholder.jpg', description: 'A precision racquet for attacking baseline players who want control, stability and a premium feel.' },
+  { id: 'velocity-junior-25', handle: 'velocity-junior-25-racquet', name: 'Velocity Junior 25 Racquet', category: 'Racquets', price: 89, badge: 'Junior Pick', rating: 4.8, image: '/images/junior-racquet-placeholder.jpg', description: 'A lightweight junior racquet designed for confidence, comfort and faster skill development.' },
+  { id: 'grand-court-pro-shoes', handle: 'grand-court-pro-shoes', name: 'Grand Court Pro Shoes', category: 'Shoes', price: 149, badge: 'Clay Court', rating: 4.7, image: '/images/shoes-placeholder.jpg', description: 'Premium tennis shoes with high-grip outsole, lateral stability and all-match comfort.' },
+  { id: 'club-luxe-polo', handle: 'club-luxe-performance-polo', name: 'Club Luxe Performance Polo', category: 'Clothing', price: 79, badge: 'New Arrival', rating: 4.6, image: '/images/polo-placeholder.jpg', description: 'A breathable premium polo with elegant tailoring for court-to-club style.' }
+];
