@@ -7,9 +7,10 @@ export default async function ProductPage({
   params: Promise<{ handle: string }>;
 }) {
   const { handle } = await params;
+
   const product =
-  products.find((item) => item.handle === handle) ||
-  products[0];
+    products.find((item) => item.handle === handle) ||
+    products[0];
   return (
     <main className="bg-white py-16">
       <div className="mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-2 lg:px-8">
